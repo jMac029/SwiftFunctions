@@ -58,8 +58,8 @@ func countDownAndUp(var a: Int) {
     var b = a
     
     while b >= 0 {
-        b--
-        a++
+        b -= 1
+        a += 1
         print("a: \(a)")
         print("b: \(b)")
     }
@@ -67,6 +67,4 @@ func countDownAndUp(var a: Int) {
 
 var a = 20
 countDownAndUp(a)
-
-
 
